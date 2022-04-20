@@ -14,6 +14,7 @@ RUN \
 		tigervnc-common \
 		tigervnc-standalone-server \
 		xterm
+RUN cp /usr/share/novnc/vnc.html /usr/share/novnc/index.html
 ENV HOME=/root \
 	LANG=en_US.UTF-8 \
 	LANGUAGE=en_US.UTF-8 \
