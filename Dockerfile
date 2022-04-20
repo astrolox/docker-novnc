@@ -11,9 +11,9 @@ RUN \
 		net-tools \
 		novnc \
 		supervisor \
-		x11vnc \
-		xterm \
-		xvfb
+		tigervnc-common \
+		tigervnc-standalone-server \
+		xterm
 ENV HOME=/root \
 	LANG=en_US.UTF-8 \
 	LANGUAGE=en_US.UTF-8 \
