@@ -1,12 +1,12 @@
 #!/bin/bash
 set -ex
 
-RUN_FLUXBOX=${RUN_FLUXBOX:-yes}
+RUN_OPENBOX=${RUN_OPENBOX:-yes}
 RUN_XTERM=${RUN_XTERM:-yes}
 
-case $RUN_FLUXBOX in
+case $RUN_OPENBOX in
   false|no|n|0)
-    rm -f /app/conf.d/fluxbox.conf
+    rm -f /app/conf.d/openbox.conf
     ;;
 esac
 
